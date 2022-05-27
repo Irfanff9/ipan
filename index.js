@@ -168,7 +168,7 @@ if (!('autorespond' in settings)) settings.autorespond = false
 available: false,
 composing: false,
 recording: true,
-autorespond:true,
+autorespond: true,
 }
 } catch (err) {
 console.log(err)
