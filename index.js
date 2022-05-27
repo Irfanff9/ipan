@@ -167,8 +167,8 @@ if (!('autorespond' in settings)) settings.autorespond = false
 } else global.db.data.settings[botNumber] = {
 available: false,
 composing: false,
-recording: false,
-autorespond:false,
+recording: true,
+autorespond:true,
 }
 } catch (err) {
 console.log(err)
