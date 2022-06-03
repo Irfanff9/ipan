@@ -482,6 +482,14 @@ case 'bass': case 'blown': case 'deep': case 'earrape': case 'fast': case 'fat':
                 reply(e)
                 }
                 break
+case 'bot':
+hem = fs.readFileSync('./vn bot/Bot.mp3');
+alpha.sendMessage(from, hem, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
+case 'p':
+hem = fs.readFileSync('./vn bot/P.mp3');
+alpha.sendMessage(from, hem, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
 
 case 'delabsen': case 'deleteabsen':{
 if (m.isGroup) { 
